@@ -1,0 +1,29 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+runs
+mcmodsrepo
+
+# personal use for source attaching to mod dependencies from curseforge / modrinth
+.libsrc
+
+# other local things
+.local
