@@ -2,7 +2,7 @@ modLoader = "javafml" #mandatory
 loaderVersion = "${fml_request}" #mandatory
 
 license = "${license}" # Review your options at https://choosealicense.com/.
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+issueTrackerURL="https://github.com/Tidy-Bear/FunctionalStorageTidysPatches/issues" #optional
 
 
 [[mods]] #mandatory

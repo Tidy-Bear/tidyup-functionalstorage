@@ -2,12 +2,10 @@
   "required": true,
   "minVersion": "0.8",
   "compatibilityLevel": "JAVA_${java_version}",
-  "package": "me.ctidy.mcmod.demo.mixin",
+  "package": "me.ctidy.mcmod.functionalstorage.tidyspatches.mixin",
   "refmap": "${mod_id}.refmap.json",
-  "mixins": [
-  ],
-  "client": [
-  ],
+  "mixins": [],
+  "client": [],
   "server": [],
   "injectors": {
     "defaultRequire": 1

@@ -186,6 +186,9 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:spark-361579:$spark_version")
     runtimeOnly fg.deobf("curse.maven:XaeroMinimap-263420:$xaerominimap_version")
     runtimeOnly fg.deobf("curse.maven:XaeroWorldmap-317780:$xaeroworldmap_version")
+
+    implementation fg.deobf("com.hrznstudio:titanium:${titanium_version}")  // required by functional storage (below)
+    implementation fg.deobf("curse.maven:FunctionalStorage-556861:${functionalstorage_version}")
 }
 
 mixin {
@@ -221,7 +224,8 @@ def expandProps = [
 
         'minecraft_request': minecraft_request,
         'fml_request': fml_request,
-        'forge_request': forge_request
+        'forge_request': forge_request,
+        'functionalstorage_request': functionalstorage_request
 ]
 void expandPropsToResources(ProcessResources task, Iterable<String> resourceFilter, Map<String, ?> props) {
     task.duplicatesStrategy = DuplicatesStrategy.INCLUDE

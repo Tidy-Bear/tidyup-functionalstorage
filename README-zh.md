@@ -1,28 +1,10 @@
-# CTidy's Forge Demo （Forge Mod 开发模板）
+# 功能性存储：泰迪熊补丁集（Functional Storage: Tidy's Patches）
+Tidy 的 Functional Storage 补丁模组
 
-CTidy（熊老师）自己的 Forge Mod 开发模板。具体开发时，请将 `mod_id`、`version`、`author`、`licence` 等内容修改为实际值。
+## 关于：功能性存储（Functional Storage）
 
-## 预置组件
-### 开发环境
-- MinecraftForge (通过 net.neoforged.gradle 构建)
-- SpongePowered Mixin
-- ParchmentMC Mappings
+功能性存储，由 [Buuz135](https://github.com/Buuz135) 和 [Rid](https://github.com/Ridanisaurus) 共同制作，是启发于 储物抽屉（Storage Drawers） 的另一种存储解决方案，具有新式的外观以及额外的功能。
 
-### Mod 依赖
-可以按需要自由增删。
-- JEI (JustEnoughItems)
-- Jade
-- Catalogue
-- Configured
-- Searchables (Controlling 前置)
-- Controlling
-- Spark
-- Xaero's Minimap
-- Xaero's World Map
-
-## 备注
-推荐将 Mod 本身的代码（如 api）、依赖于原版 MC 的代码 以及 依赖于指定平台（如 Forge、Fabric 等）的代码相分离，即便本模板是 Forge 专供。
-当实现某个功能用例时，尽量优先使用原版 MC 的代码，再考虑指定平台的 API，除非原版代码具有过于显著的缺陷，或者你准备好在每个平台上都进行一次实现。
-
-## 开源协议
-MIT 协议 (LICENSE) 用于当前模板项目本身，而 LGPL-v3 协议 (LICENSE_TEMPLATE) 仅为示例，允许实现者自由替换。
+[github](https://github.com/Buuz135/FunctionalStorage)
+| [curseforge](https://www.curseforge.com/minecraft/mc-mods/functional-storage)
+| [modrinth](https://modrinth.com/mod/functional-storage)
