@@ -5,7 +5,9 @@
   "package": "me.ctidy.mcmod.functionalstorage.tidyspatches.mixin",
   "refmap": "${mod_id}.refmap.json",
   "mixins": [],
-  "client": [],
+  "client": [
+    "flat_item_icon.DrawerRendererMixin"
+  ],
   "server": [],
   "injectors": {
     "defaultRequire": 1

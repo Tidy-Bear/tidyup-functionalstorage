@@ -20,9 +20,13 @@
 package me.ctidy.mcmod.functionalstorage.tidyspatches.forge;
 
 import me.ctidy.mcmod.functionalstorage.tidyspatches.ModEnvConstants;
+import me.ctidy.mcmod.functionalstorage.tidyspatches.client.ClientConfig;
+import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.IExtensionPoint;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
+import net.minecraftforge.fml.loading.FMLEnvironment;
 
 /**
  * ForgeModEntry
@@ -37,6 +41,9 @@ public class ForgeModEntry {
         ModLoadingContext.get().registerExtensionPoint(IExtensionPoint.DisplayTest.class, () -> new IExtensionPoint.DisplayTest(
                 () -> "ANY", (remote, isServer) -> true
         ));
+        if (Dist.CLIENT == FMLEnvironment.dist) {
+            ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, ClientConfig.SPEC);
+        }
     }
 
 }

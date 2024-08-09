@@ -1,0 +1,7 @@
+{
+  "functionalstorage_tidyspatches.lang.version": "1.0.0",
+  "functionalstorage_tidyspatches.config.section.display": "Display Settings",
+
+  "functionalstorage_tidyspatches.config.flat_item_icon": "Flat item icon",
+  "functionalstorage_tidyspatches.config.flat_item_icon.tooltip": "Whether using flat item texture (like in GUI) as drawer icons.\nChanging this to false to turn back to the original rendering.\n[Default: true]"
+}
