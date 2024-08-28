@@ -1,4 +1,4 @@
-# 功能性存储：泰迪熊补丁集（Functional Storage: Tidy's Patches）
+# 熊氏补丁包：功能性存储（Tidy UP: Functional Storage）
 Tidy 的 Functional Storage 补丁模组
 
 ## 关于：功能性存储（Functional Storage）

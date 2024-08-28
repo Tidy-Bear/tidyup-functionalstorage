@@ -2,7 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "compatibilityLevel": "JAVA_${java_version}",
-  "package": "me.ctidy.mcmod.functionalstorage.tidyspatches.mixin",
+  "package": "me.ctidy.mcmod.tidyup.functionalstorage.mixin",
   "refmap": "${mod_id}.refmap.json",
   "mixins": [],
   "client": [

@@ -1,7 +1,0 @@
-{
-  "functionalstorage_tidyspatches.lang.version": "1.0.0",
-  "functionalstorage_tidyspatches.config.section.display": "显示设置",
-
-  "functionalstorage_tidyspatches.config.flat_item_icon": "平面物品图标",
-  "functionalstorage_tidyspatches.config.flat_item_icon.tooltip": "是否使用在 GUI 中的平面物品纹理作为抽屉图标。\n改为 false 将还原为原先的渲染方式。\n[默认值：true]"
-}

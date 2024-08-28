@@ -1,4 +1,4 @@
-# Functional Storage: Tidy's Patches
+# Tidy UP: Functional Storage
 Tidy's patches mod for Functional Storage.
 
 ## About: Functional Storage
